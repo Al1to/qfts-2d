@@ -1,6 +1,10 @@
+import CodeEditor from "./components/CodeEditor";
+
 function App() {
   return (
-    <div className="App">meow</div>
+    <div className="App">
+      <CodeEditor />
+    </div>
   );
 }
 

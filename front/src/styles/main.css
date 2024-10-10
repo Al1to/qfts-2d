@@ -1,3 +1,42 @@
-.App {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #101010;
+  color: #fff;
+}
+
+.App .CodeEditor .EditorCont {
+  display: flex;
+}
+.App .CodeEditor .EditorCont .LineNumbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 15px;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #111111;
+}
+.App .CodeEditor .EditorCont .LineNumbers .LineIndex {
+  display: flex;
+  align-items: center;
+  height: 19px;
+}
+.App .CodeEditor .EditorCont .Editor {
+  width: calc(100% - 50px);
+  height: 400px;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  background-color: #141414;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

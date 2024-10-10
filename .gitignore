@@ -2,3 +2,5 @@
 /back/Cargo.lock
 /front/node_modules
 /front/build
+/front/src/styles/main.css
+/front/src/styles/main.css.map
