@@ -1,3 +1,4 @@
 /back/target
+/back/Cargo.lock
 /front/node_modules
 /front/build

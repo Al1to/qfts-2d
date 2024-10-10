@@ -1,0 +1,8 @@
+[package]
+name = "back"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5"
+rusty-machine = "0.5.4"
